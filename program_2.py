@@ -14,6 +14,7 @@ class GUI:
         self.info_button.pack(side='left')
 
         tkinter.mainloop()
+        
     def display_info(self):
         tkinter.messagebox.showinfo('Information Display', 'Micah DeCaro','618 Rice St. W','Stillwater,MN 55082')
 
