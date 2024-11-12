@@ -4,7 +4,7 @@ import tkinter.messagebox
 class GUI:
     def __init__(self) :
         self.main_window=tkinter.Tk()
-        self.main_window.title('Info')
+        self.main_window.title('Information')
 
         self.info_button=tkinter.Button(self.main_window,text='Show Info',command=self.display_info)
 
